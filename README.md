@@ -43,6 +43,8 @@ $ npm run start:prod
 
 ## Use
 
+Please change the .env.example file to .env and use it. Be sure not to share these environment variables with anyone outside of your developer team.
+
 ### Login
 
 ```url
