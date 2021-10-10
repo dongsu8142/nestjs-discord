@@ -2,7 +2,7 @@ import { Inject, Injectable } from '@nestjs/common';
 import { PassportStrategy } from '@nestjs/passport';
 import { Profile, Strategy } from 'passport-discord';
 import { Done } from 'src/utils/types';
-import { IAuthService } from '../services/auth/auth';
+import { IAuthService } from '../services/interfaces/auth';
 import { encrypt } from '../../utils/encrypt';
 
 @Injectable()

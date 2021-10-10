@@ -9,7 +9,7 @@ import {
   UserDetails,
 } from 'src/utils/types';
 import { Repository } from 'typeorm';
-import { IAuthService } from './auth';
+import { IAuthService } from './interfaces/auth';
 
 @Injectable()
 export class AuthService implements IAuthService {
