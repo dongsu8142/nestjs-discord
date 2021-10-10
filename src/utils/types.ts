@@ -1,4 +1,4 @@
-import { User } from 'src/typeorm/entities/User';
+import { User } from 'src/typeorm/entities/User.entity';
 
 export type UserDetails = {
   discordId: string;

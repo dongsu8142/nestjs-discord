@@ -1,4 +1,4 @@
-import { User } from 'src/typeorm/entities/User';
+import { User } from 'src/typeorm/entities/User.entity';
 import {
   FindOAuth2Params,
   FindUserParams,

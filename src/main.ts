@@ -4,7 +4,7 @@ import { AppModule } from './app.module';
 import * as session from 'express-session';
 import * as passport from 'passport';
 import { getRepository } from 'typeorm';
-import { Session } from './typeorm/entities/Session';
+import { Session } from './typeorm/entities/Session.entity';
 import { TypeormStore } from 'connect-typeorm/out';
 
 async function bootstrap() {

@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { OAuth2Credentials } from 'src/typeorm/entities/OAuth2Credentials';
-import { User } from 'src/typeorm/entities/User';
+import { OAuth2Credentials } from 'src/typeorm/entities/OAuth2Credentials.entity';
+import { User } from 'src/typeorm/entities/User.entity';
 import {
   FindOAuth2Params,
   FindUserParams,
