@@ -24,14 +24,8 @@ export class DiscordStrategy extends PassportStrategy(Strategy) {
     profile: Profile,
     done: Done,
   ) {
-    const encryptedAccessToken = encrypt(
-      accessToken,
-      //process.env.SECRET_PASSPHRASE,
-    ).toString();
-    const encryptedRefreshToken = encrypt(
-      refreshToken,
-      //process.env.SECRET_PASSPHRASE,
-    ).toString();
+    const encryptedAccessToken = encrypt(accessToken).toString();
+    const encryptedRefreshToken = encrypt(refreshToken).toString();
     const { id: discordId, email, discriminator, username, avatar } = profile;
     const user = await this.authService.validateUser({
       discordId,

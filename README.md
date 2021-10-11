@@ -51,6 +51,12 @@ Please change the .env.example file to .env and use it. Be sure not to share the
 http://localhost:3000/api/auth/login
 ```
 
+### Redirect
+
+```url
+http://localhost:3000/api/auth/discord/redirect
+```
+
 ### Status
 
 ```url

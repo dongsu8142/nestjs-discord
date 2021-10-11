@@ -14,7 +14,6 @@ export type OAuth2Details = {
 };
 
 export type FindUserParams = Partial<{
-  id: number;
   discordId: string;
   discordTag: string;
   avatar: string;
